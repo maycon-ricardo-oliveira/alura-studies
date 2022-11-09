@@ -1,4 +1,5 @@
 import React from 'react';
+import Clock from '../components/Clock';
 import Form from '../components/Form';
 import List from '../components/List';
 import style from './App.module.scss';
@@ -11,6 +12,7 @@ function App() {
 
       </Form>
       <List></List>
+      <Clock />
     </div>
   );
 }
