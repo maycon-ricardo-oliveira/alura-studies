@@ -8,7 +8,7 @@ function App() {
   return (
     <div className={style.AppStyle}>
       <Form>
-        
+
       </Form>
       <List></List>
     </div>
