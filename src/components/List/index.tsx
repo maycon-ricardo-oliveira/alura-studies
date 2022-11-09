@@ -20,7 +20,10 @@ function List() {
 			<h2>Estudos do dia</h2>
 			<ul>
 				{tasks.map((item, index) => (
-					<Item {...item} />
+					<Item 
+						key={index} 
+						{...item} 
+					/>
 				))}
 			</ul>
 		</aside>
